@@ -82,8 +82,8 @@
                 android:data="https://github.com/8enet/AppOpsX"/>
         </android.support.v7.preference.Preference>
 
-        <android.support.v7.preference.Preference android:key="acknowledgments" android:summary="感谢大家提出的反馈意见和帮助" android:title="特别鸣谢"/>
+        <android.support.v7.preference.Preference android:key="acknowledgments" android:summary="@string/acknowledgment_description" android:title="@string/acknowledgment"/>
 
-        <android.support.v7.preference.Preference android:key="show_log" android:title="显示日志"/>
+        <android.support.v7.preference.Preference android:key="show_log" android:title="@string/show_log"/>
     </android.support.v7.preference.PreferenceCategory>
 </android.support.v7.preference.PreferenceScreen>
